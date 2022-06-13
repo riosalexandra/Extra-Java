@@ -20,7 +20,7 @@ public class Variables {
         scanner.nextLine();
         System.out.println("Now subtract " + subtraction + prompt);
         scanner.nextLine();
-
+        System.out.println();
 
         scanner.close();
     }
