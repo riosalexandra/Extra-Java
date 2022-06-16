@@ -18,9 +18,11 @@ public class Variables {
         scanner.nextLine();
         System.out.println("Divide the result by the number you originally thought of " + prompt);
         scanner.nextLine();
-        System.out.println("Now subtract " + subtraction + prompt);
+        System.out.println("Now subtract 7" + prompt);
         scanner.nextLine();
-        System.out.println();
+
+        answer = firstNumber * secondNumber - subtraction;
+        System.out.println("Tha answer is " + answer);
 
         scanner.close();
     }
