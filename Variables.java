@@ -27,7 +27,7 @@ public class Variables {
         scanner.nextLine();
 
 
-        System.out.println("Tha answer is " + answer);
+        System.out.println("The answer is " + answer);
 
         scanner.close();
     }
