@@ -25,8 +25,7 @@ public class Variables {
         scanner.nextLine();
         System.out.println("Now subtract 7" + prompt);
         scanner.nextLine();
-        System.out.println("That's the end of our game now...");
-        scanner.nextLine();
+
 
         System.out.println("Tha answer is " + answer);
 
