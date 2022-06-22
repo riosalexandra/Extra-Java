@@ -13,9 +13,9 @@ public class PracticeJava2 {
 
     
 //    problem: 3. Create a public static method *average* in the Practice class that takes an array of integers and returns their average as a double.
-    public static double average(int[] numbersArray) {
+    public static double average(int[] numbersArray){
         double total = 0;
-        for (int number = 0; numbersArray){
+        for (int number : numbersArray) {
             total += number;
         }
         return total / numbersArray.length;
