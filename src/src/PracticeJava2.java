@@ -1,4 +1,12 @@
+import java.sql.SQLOutput;
+
+// 1. Create a class called PracticeJava2 with a main method.
 public class PracticeJava2 {
+
+
+//  2.  Create a public static method in the Practice class called *subtractTen* that takes one integer argument and returns that number minus 10.
+//    --this is saying that this method will have a return type of integer
+//    --question is asking that the method will take in an int as an argument also
     public static int subtractTen(int number) {
         return number -10;
     }
@@ -15,12 +23,19 @@ public class PracticeJava2 {
 
     public static void main(String[] args) {
         System.out.println(subtractTen(15));
+        System.out.println(average(new int[]{1, 3, 5}));
+//        ^this (line 26) is saying i am calling the average method and giving it an array (with 1, 3, 5) and it is returning 3.0
+//        so this is taking care of turning my integers into a double
     }
 
 
 
 
+
+
 }
+
+
 
 
 
